@@ -8,7 +8,7 @@ The implementation uses cache blocking, matrix packing, register blocking, SIMD 
 
 The benchmark compares MyGEMM against Intel MKL SGEMM on square matrices.
 
-![Performance against Intel MKL (single core)](demo/perforamnce.jpg)
+![Performance against Intel MKL (single core)](demo/performance.jpg)
 
 On my Intel CPU, MyGEMM showed more stable single-core performance across the tested matrix sizes, with less variation than Intel MKL in the same setup.
 
